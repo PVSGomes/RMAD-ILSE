@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-family: Arial;
+}
+
+.image {
+  background-image: url("Shore.jpg");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(148, 89, 33);
+}
+
+button:hover{
+    background-color: rgb(185, 165, 97);
+
+}
+
+button{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: rgb(148, 89, 33);
+    color: rgb(148, 89, 33);
+    border-radius: 10px;
+}
+
+
+.P1{
+    background-color: rgb(148, 89, 33);
+    text-align: center;
+    margin-top: -16px;
+    height: 90px;
+
+}
+
+.P2{
+    background-color: rgb(255, 243, 232);
+    text-align: center;
+    margin-top: -16px;
+    height: 90px;
+
+}
+
+.flex-container {
+            position: relative;
+            display: flex;
+            width: auto;
+            flex-direction: row;
+            height: 210px;
+            text-align: left;
+            margin-top: -16px;
+
+        }
+</style>
+</head>
+<body>
+
+<div class="image">
+  <div class="text">
+    <h1 style="font-size:50px; font-family: Arial;">Welcome To The Beach</h1>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla atque fugit ea impedit perferendis quo quia tenetur voluptas est? </h3>
+    <button>Read more</button>
+  </div>
+</div>
+
+<div class="P1">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, minima asperiores quasi porro, natus sed eum quibusdam perspiciatis doloribus hic eius officia ut praesentium quos corporis harum, laboriosam fuga consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nemo saepe illum quaerat harum qui possimus magni id ipsum similique voluptatum, odio eum velit quas facere rem voluptatem aliquam in?</p>
+</div>
+
+<div class="P2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, minima asperiores quasi porro, natus sed eum quibusdam perspiciatis doloribus hic eius officia ut praesentium quos corporis harum, laboriosam fuga consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nemo saepe illum quaerat harum qui possimus magni id ipsum similique voluptatum, odio eum velit quas facere rem voluptatem aliquam in?</p>
+</div>
+
+<div class="flex-container">
+
+    <p style="flex: 2; background-color:rgb(148, 89, 33);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum laudantium laborum fugiat
+        exercitationem, sint
+        alias non quas esse nihil accusamus deleniti autem ipsa ratione asperiores illum repellat nostrum quo enim.
+    </p>
+    <p style="flex: 2; background-color:rgb(255, 243, 232);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum laudantium laborum fugiat
+        exercitationem, sint
+        alias non quas esse nihil accusamus deleniti autem ipsa ratione asperiores illum repellat nostrum quo enim.
+    </p>
+    <p style="flex: 2; background-color:rgb(148, 89, 33);">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum laudantium laborum fugiat
+        exercitationem, sint
+        alias non quas esse nihil accusamus deleniti autem ipsa ratione asperiores illum repellat nostrum quo enim.
+    </p>
+</div>
+
+
+</body>
+</html>
